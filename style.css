@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	margin: 0;
+	padding: 0;
+	/*border: 2px solid black;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.logoimg{
+	margin: 0;
+	/*padding: 10px 20px;*/
+	width: 25%;
+	/*border: 2px solid black;*/
+	float: left;
+
+}
+
+.logotext{
+	float: right;
+	margin-right: 100px;
+	
+
+}
+#left {
+	margin-left: -10px;
+}
+.iconbar{
+	margin:0;
+	padding: 0;
+	/*border: 2px solid black;*/
+	width: 90%;
+	
+}
+.icon{
+	float: right;
+}
+
+.menubar{
+	margin: 0;
+	padding: 0;
+}
+
+.menubar ul li{
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+
+}
+
+.slider{
+	padding: 0;
+	margin: 0;
+	/*border: 2px solid green;*/
+	position: relative;
+	width: 960px;
+	height: 360px;
+}
+
+.slider img{
+	position: absolute;
+	width: 960px;
+	height: 360px;
+}
+
+.sliderone img{
+	position: absolute;
+	width: 400px;
+	height: 260px;
+	bottom: -30px;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+.slider_text{
+	padding: 0;
+	width: 960px;
+	text-align: center;
+	color: gray;
+}
+.bottom{
+	padding: 30px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	/*border: 2px solid blue;*/
+	background-color: chocolate;
+	overflow: hidden;
+	height: 100px;
+}
+
+.bottom_text{
+	float: left;
+}
+.bottom button{
+	float: right;
+	background-color: green; 
+}
+
+button{
+	background-color: green;
+	padding: 10px;
+}
+
+.footer{
+	margin-top: 10px;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	/*border: 2px solid red; */
+}
+.copyright{
+	float: left;
+}
+
+.footermenubar{
+	float: right;
+}
+
+.footermenubar ul li{
+	list-style: none;
+	display: inline-block;
+}
